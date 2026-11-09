@@ -1,0 +1,18 @@
+* text=auto
+
+# Shell scripts and makefiles must stay LF so they run correctly in WSL.
+*.sh text eol=lf
+Makefile text eol=lf
+
+# Source and docs
+*.c text eol=lf
+*.h text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Binaries
+*.a binary
+*.jpg binary
+*.png binary
